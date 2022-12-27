@@ -1,0 +1,21 @@
+
+.container_menu-title{
+  color: #e8eaec;
+
+}
+
+.container_menu-title > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 150px;
+
+}
+
+.container_menu-title > hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
