@@ -1,0 +1,36 @@
+.container_small-card_content{
+  display: flex;
+  flex-direction: row;
+}
+
+.container_small-card{
+
+  height: 140px;
+  width: 500px;
+  margin-bottom: 13px;
+
+
+}
+
+.small-card_picture{
+  width: 100%;
+  min-width: 200px;
+  margin-right: 15px;
+}
+
+.small-card_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.small-card_title > h5 {
+  color: gray;
+}
+
+.container-separator{
+  margin-top: 5px;
+
+}
+
