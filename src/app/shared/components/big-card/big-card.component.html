@@ -2,26 +2,21 @@
 
   <div class="big-card_picture">
     <img
-      src="https://arquivo.devmedia.com.br/noticias/documentacao/documentacao_angular-cli-como-rodar-testes-e-checar-o-codigo_38248.png"
-      alt=""
+      src="{{ pictureCover }}"
+      alt=" Image {{cardTitle}}"
       height="200px"
 
       srcset=""
     />
   </div>
 
-  <div class="big-card_tittle">
-    <h1>Nova Versao do Sistema</h1>
+  <div class="big-card_title">
+    <h1> <a [routerLink]="['content', Id]"> {{ cardTitle }} </a> </h1>
   </div>
 
   <div class="big-card_description">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id lacus
-      vel leo bibendum ornare sed vitae turpis. Sed tempus enim vitae mattis
-      faucibus. Aliquam erat volutpat. Fusce at rutrum metus. Praesent congue
-      congue massa sit amet rhoncus. Sed tempus gravida sem, sit amet imperdiet
-      eros pellentesque a. Vestibulum ante ipsum primis in faucibus orci luctus
-      et ultrices posuere cubilia curae.
+      <a [routerLink]="['content', Id]">{{ cardDescription }}</a>
     </p>
   </div>
 

@@ -7,12 +7,7 @@
   justify-content: center;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
 
-}
 .articles_small-card{
   display: flex;
   flex-direction: column;
